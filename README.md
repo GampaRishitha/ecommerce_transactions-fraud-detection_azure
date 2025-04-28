@@ -77,17 +77,27 @@ Before running this project, ensure you have the following:
 
   ### OUTPUT SCREENSHOTS
   ![image](https://github.com/user-attachments/assets/6d08ea96-b911-465a-8021-1d7ba6699d83)
+  Fig[1]: Created a Resource Group
   ![image](https://github.com/user-attachments/assets/4d6eb4e1-7330-4cc8-806a-d88a67594612)
+  Fig[2]: Then Created Data Lake Storage Account and created new containers to store our csv file 
   ![image](https://github.com/user-attachments/assets/7411c853-33ac-4541-b196-2587ec4a5f6c)
+  Fig[3]:Then Created Synapse Workspace 
   ![image](https://github.com/user-attachments/assets/7f4907a7-193f-44f3-8edc-37c44996c314)
+  Fig[4]:Then Open Synapse Analytics Workspace using Workspace web URL
   ![image](https://github.com/user-attachments/assets/7111c87b-7ad5-401a-9ae2-fa1352d334be)
+  Fig[5]:Then Go to Data -> Linked -> Connect to our Data Lake here. Open New SQL Script + here -> Execute the SQL queries and save the SQL SCRIPT
+  
   ![image](https://github.com/user-attachments/assets/120be28a-89fd-4452-adad-93efb04b1feb)
   ![Screenshot 2025-04-28 201129](https://github.com/user-attachments/assets/5511ae10-13d7-4ae0-aa87-fb713c108215)
   ![Screenshot 2025-04-28 202329](https://github.com/user-attachments/assets/4bc854e4-b7eb-4dc9-b1ce-3bbe0aa9a315)
+  Fig[8]: Open Power BI Desktop -> Get Data -> Azure Synapse Analytics Workspace (Beta) -> connect
+  
   ![Screenshot 2025-04-28 193249](https://github.com/user-attachments/assets/5d5ed8a9-39c2-4e50-9501-ee9695d1fe79)
+  Fig[9]: Select the required columns and rows -> select the type of visualization -> To create Reports and Dashboards for analysis
+  
   ![image](https://github.com/user-attachments/assets/2903693e-b023-47d6-87d4-5983b6ad5e70)
   ![image](https://github.com/user-attachments/assets/7d8507ec-5d67-4b81-bf54-090856c7d437)
-
+  Fig[10]: Open the Azure Synapse workspace -> Manage -> Source Control -> Git Configuration -> Configure a repository -> GitHub account -> Repository Name / Link ->          collaboration branch -> Root folder -> save and commit for deployment 
 
 
 
