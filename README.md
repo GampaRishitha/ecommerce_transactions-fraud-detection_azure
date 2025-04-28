@@ -85,6 +85,10 @@ Before running this project, ensure you have the following:
   ![Screenshot 2025-04-28 201129](https://github.com/user-attachments/assets/5511ae10-13d7-4ae0-aa87-fb713c108215)
   ![Screenshot 2025-04-28 202329](https://github.com/user-attachments/assets/4bc854e4-b7eb-4dc9-b1ce-3bbe0aa9a315)
   ![Screenshot 2025-04-28 193249](https://github.com/user-attachments/assets/5d5ed8a9-39c2-4e50-9501-ee9695d1fe79)
+  ![image](https://github.com/user-attachments/assets/2903693e-b023-47d6-87d4-5983b6ad5e70)
+  ![image](https://github.com/user-attachments/assets/7d8507ec-5d67-4b81-bf54-090856c7d437)
+
+
 
 
 
