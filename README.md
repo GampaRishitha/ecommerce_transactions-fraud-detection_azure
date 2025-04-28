@@ -73,3 +73,24 @@ Before running this project, ensure you have the following:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/ecommerce-fraud-detection.git
+
+
+  ### OUTPUT SCREENSHOTS
+  ![image](https://github.com/user-attachments/assets/6d08ea96-b911-465a-8021-1d7ba6699d83)
+  ![image](https://github.com/user-attachments/assets/4d6eb4e1-7330-4cc8-806a-d88a67594612)
+  ![image](https://github.com/user-attachments/assets/7411c853-33ac-4541-b196-2587ec4a5f6c)
+  ![image](https://github.com/user-attachments/assets/7f4907a7-193f-44f3-8edc-37c44996c314)
+  ![image](https://github.com/user-attachments/assets/7111c87b-7ad5-401a-9ae2-fa1352d334be)
+  ![image](https://github.com/user-attachments/assets/120be28a-89fd-4452-adad-93efb04b1feb)
+  ![Screenshot 2025-04-28 201129](https://github.com/user-attachments/assets/5511ae10-13d7-4ae0-aa87-fb713c108215)
+  ![Screenshot 2025-04-28 202329](https://github.com/user-attachments/assets/4bc854e4-b7eb-4dc9-b1ce-3bbe0aa9a315)
+  ![Screenshot 2025-04-28 193249](https://github.com/user-attachments/assets/5d5ed8a9-39c2-4e50-9501-ee9695d1fe79)
+
+
+
+
+
+
+
+
+
