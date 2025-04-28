@@ -1,0 +1,55 @@
+SELECT
+    TOP 100 *
+FROM
+    OPENROWSET(
+        BULK 'https://frauddatalake1.dfs.core.windows.net/transactions/merged_dataset.csv',
+        FORMAT = 'CSV',
+        PARSER_VERSION = '2.0'
+    ) AS [result]
+
+
+
+-- Step 1: Create Database
+CREATE DATABASE ecommerce_fraud_detection2;
+USE ecommerce_fraud_detection2;
+
+-- Step 2: Create External Data Source (pointing to FOLDER)
+CREATE EXTERNAL DATA SOURCE ecom_data_source2
+WITH (
+    LOCATION = 'https://frauddatalake1.blob.core.windows.net/transactions/'
+);
+
+-- Step 3: Create External File Format
+CREATE EXTERNAL FILE FORMAT csv_file_format
+WITH (
+    FORMAT_TYPE = DELIMITEDTEXT,
+    FORMAT_OPTIONS (
+        FIELD_TERMINATOR = ',',
+        STRING_DELIMITER = '"',
+        FIRST_ROW = 2
+    )
+);
+DROP EXTERNAL TABLE dbo.transactions;
+
+-- Step 4: Create External Table (pointing to correct FILE name)
+CREATE EXTERNAL TABLE dbo.transactions (
+    TransactionID NVARCHAR(50),
+    UserID NVARCHAR(50),
+    Amount FLOAT,
+    Timestamp NVARCHAR(50),  -- Change to NVARCHAR(50)
+    DeviceID NVARCHAR(50),
+    IPAddress NVARCHAR(50),
+    BillingAddress NVARCHAR(100),
+    ShippingAddress NVARCHAR(100)
+)
+WITH (
+    LOCATION = 'merged_dataset.csv',
+    DATA_SOURCE = ecom_data_source2,
+    FILE_FORMAT = csv_file_format
+);
+
+SELECT TOP 10 * FROM dbo.transactions;
+SELECT *
+FROM ecommerce_fraud_detection2.dbo.transactions
+WHERE Amount > 10; 
+
